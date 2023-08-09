@@ -12,7 +12,7 @@ async function showAdvice() {
 
   const advice = data.slip.advice;
   const adviceNumber = data.slip.id;
-  adviceH1.innerHTML = advice;
+  adviceH1.innerHTML = `"${advice}"`;
   number.innerHTML = "ADVICE #" + adviceNumber;
 }
 

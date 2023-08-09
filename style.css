@@ -121,5 +121,9 @@ main {
   border-style: none;
 }
 
-.dice__img{
+/* Hover States */
+.dice__btn:hover{
+  cursor: pointer;
+  box-shadow: 0 0 40px 0 rgba(82, 255, 169, 1);
+  transition: 200ms ease-in;
 }
